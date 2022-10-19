@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/69864d08cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1 class="main-title">Netflix</h1>
+        <div class="buttons">
+          <select class="languages">
+            <option value="english">English</option>
+            <option value="french">Français</option>
+          </select>
+          <button class="btn-register">Sign in</button>
+        </div>
+      </div>
+      <div class="bg">
+        <img
+          src="./images/netflix-bg.jpeg"
+          alt="Vidéo a la demande , grand choix de films"
+          class="bg-image"
+        />
+        <div class="blur"></div>
+      </div>
+      <div class="card">
+        <h2 class="second-title text-white-center">
+          Unlimited movies, TV shows, and more.
+        </h2>
+        <h3 class="third-title text-white-center">
+          Watch anywhere. Cancel anytime.
+        </h3>
+        <p class="email-ask text-white-center">
+          Ready to watch? Enter your email to create or restart your membership.
+        </p>
+        <div class="signin-action">
+          <input
+            type="email"
+            required
+            class="email"
+            placeholder="Email adress"
+          />
+          <button class="submit">
+            Get Started <i class="fa-solid fa-chevron-right ml-20"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

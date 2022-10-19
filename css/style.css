@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('../fonts/netflix-sans-font/NetflixSans-Regular.woff2')
+      format('woff2'),
+    url('../fonts/netflix-sans-font/NetflixSans-Regular.otf') format('otf');
+}
+
+body {
+  font-family: 'Netflix Sans';
+}
+body,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.main {
+  background-color: #222222;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 2vh 5%;
+  z-index: 3;
+  position: fixed;
+}
+.main-title {
+  color: rgb(229, 12, 19);
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  margin-top: 2vh;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  margin-top: 2vh;
+}
+.languages {
+  background-color: black;
+  color: white;
+  width: 90px;
+  border-radius: 5px;
+  border: 0;
+  height: 35px;
+  text-align: center;
+}
+.btn-register {
+  background-color: rgb(225, 12, 18);
+  color: white;
+  width: 90px;
+  border-radius: 5px;
+  border: 0;
+  height: 35px;
+  text-align: center;
+}
+.custom-position {
+  background-color: #fff;
+}
+.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.9) 0,
+    transparent 60%,
+    rgba(0, 0, 0, 0.9)
+  );
+}
+.card {
+  position: absolute;
+  top: 25vh;
+  width: 50%;
+  left: 25%;
+  z-index: 3;
+}
+.text-white-center {
+  text-align: center;
+  color: white;
+}
+
+.text-white {
+  color: white;
+}
+
+.second-title {
+  font-size: 4rem;
+}
+.third-title {
+  font-size: 1.625rem;
+}
+.email-ask {
+  font-size: 1.2rem;
+}
+.signin-action {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+.email {
+  width: 70%;
+  text-indent: 10px;
+}
+.submit {
+  width: 30%;
+  background-color: rgb(225, 12, 18);
+  border: 0;
+  color: white;
+  font-size: 1.5rem;
+  flex-wrap: nowrap;
+  cursor: pointer;
+}
+.email:focus-visible {
+  outline: none;
+}
+.ml-20 {
+  margin-left: 20px;
+}
